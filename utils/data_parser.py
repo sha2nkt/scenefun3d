@@ -10,10 +10,10 @@ import os
 import open3d as o3d
 import glob
 import imageio
-import utils.homogenous as hm
-from utils.rigid_interpolation import rigid_interp_split, rigid_interp_geodesic
+import scenefun3d.utils.homogenous as hm
+from scenefun3d.utils.rigid_interpolation import rigid_interp_split, rigid_interp_geodesic
 
-from utils.data_parser_paths import data_asset_to_path
+from scenefun3d.utils.data_parser_paths import data_asset_to_path
 from pathlib import Path
 import json
 

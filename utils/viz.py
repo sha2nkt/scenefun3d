@@ -7,9 +7,9 @@
 import open3d as o3d
 import numpy as np
 import copy
-from utils.pc_process import pc_estimate_normals
+from scenefun3d.utils.pc_process import pc_estimate_normals
 import pyviz3d.visualizer as viz
-from utils.viz_constants import SCANNET_COLOR_MAP_200, VIZ_TOOL_OPTIONS
+from scenefun3d.utils.viz_constants import SCANNET_COLOR_MAP_200, VIZ_TOOL_OPTIONS
 
 def viz_3d(to_plot_list, viz_tool="pyviz3d"):
     """
